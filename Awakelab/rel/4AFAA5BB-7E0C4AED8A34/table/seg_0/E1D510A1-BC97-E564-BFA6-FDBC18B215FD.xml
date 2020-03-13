@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D510A1-BC97-E564-BFA6-FDBC18B215FD" name="Alternativas">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>7C69A713-89C8-5546-49AD-6D26D14E6633</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_alt" id="523FAEF2-22CB-80E9-F3B3-E2B4EFC4E502">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>170EA922-5A5A-FA5A-D739-21A45394C003</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="1603E278-35B6-8D58-0B1C-CCC29A15512B">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>B92ABE94-177B-5AE1-4581-237A69DE39AC</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EsCorrecta" id="AC2634FD-D76B-EAA4-D801-F62F99187953">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>5609E89A-A47F-536E-0DD8-50B8FBD17EF2</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Percent_Aporte" id="15E619E9-D817-584A-29D2-A489D67439C6">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>AC955C0C-59B3-D5D3-2B0B-DE4CEF213237</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preguntas_ID_preguntas" id="82AE7448-28F1-CA19-B118-772B57507863">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>C5ADFCF1-AAA6-719B-97A5-2BDBD361D3C1</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B0E32FD-3FBE-6BD0-400B-06B86E313413" referredColumn="3D464109-BA48-E003-5FD3-8B68D685FB5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D901F68-E490-6AC8-8C85-26FC5AE9E3B6" name="Alternativas_PK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>B4EFBA46-E388-9AFB-A1DF-2DDA0C2ED9F7</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="523FAEF2-22CB-80E9-F3B3-E2B4EFC4E502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC07D62F-52FA-40B1-608C-67FC0E0E6CD0" name="Alternativas_Preguntas_FK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>62961160-86C1-3FB7-785D-014B912DBC47</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82AE7448-28F1-CA19-B118-772B57507863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

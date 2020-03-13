@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="FDCB9CE0-68C7-E418-42F4-387C7C96C0CB">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:04:13 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<sourcePk>B4EFBA46-E388-9AFB-A1DF-2DDA0C2ED9F7</sourcePk>
+<targetPk>4584B25F-E511-DAD9-27DB-38739E7B2020</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C69A713-89C8-5546-49AD-6D26D14E6633</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4717F84F-88E2-F7CF-DC79-C1CE46E5D89A</targetEntity>
+<transferable>true</transferable>
+</Relation>

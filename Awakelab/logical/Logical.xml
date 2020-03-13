@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ABBF0B2F-6604-4DEF-FE7F-11348A5CBDB3" mainViewID="892BF17A-1509-5FBD-BCF5-3F602B38FD1E">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 22:37:03 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

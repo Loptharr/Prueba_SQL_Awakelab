@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE11C9B1-7CFC-C610-4612-F600D1A96ACD" name="Test">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>9D1F630A-304F-945B-04CF-9A9518D9AFE9</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_test" id="E9B57C22-1F21-0046-BAF6-116528F3EE74">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>10BE0A8C-C3C2-4432-E352-E7BA3D4BFB1F</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="FFEE8006-109B-4ED9-3770-F27D4817A71A">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>14F488CD-33FE-C179-8644-1A63A0F28051</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="29731F6A-7258-6320-ECD6-8927444791AF">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>0777DB96-506C-CFBC-7DD4-C65362FB3A98</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidad" id="72B9E395-35CF-9826-8260-D9DCCC822F66">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>1D9474DE-D162-170D-7006-10F531D42EB4</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autor" id="63725CFD-FB2B-F611-E283-6AFDD7D6EF05">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>C5EDC469-2571-554D-4C39-1B2B2AF0414C</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="E7CA4869-8F50-025C-67CE-5336E5C31D4E">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>1049034F-0926-4204-F224-062F269621F2</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_ID_curso" id="7D288346-6EEC-0E76-7A63-8725256E23F8">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>AA0DD8FF-C864-C69B-BFCE-0EA7ACB63988</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBABFDE0-A57F-9F3A-0F44-59053E7E9754" referredColumn="1AFFC08B-7CDD-6540-5F94-59CE6E56FA00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AC0061F-428F-37E0-7789-8520A867F56D" name="Test_PK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>F69A49FB-3D31-2186-0E4C-3C6FF8140AA7</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9B57C22-1F21-0046-BAF6-116528F3EE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21BFB65F-8D43-B271-9EBC-6FE350E63244" name="Test_Curso_FK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>3A0440A5-DAF6-B331-C573-4C9507CDDD3B</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D288346-6EEC-0E76-7A63-8725256E23F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

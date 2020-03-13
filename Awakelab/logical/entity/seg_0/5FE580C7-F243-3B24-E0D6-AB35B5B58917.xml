@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FE580C7-F243-3B24-E0D6-AB35B5B58917" name="Alumn_Test">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 23:53:59 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_alumn_test" id="22914F5F-881C-47B7-02C9-174D4B0D2E30">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 23:57:15 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_alumno" id="883E78B6-DF1C-F745-485A-A24E6AED6772">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 23:54:35 UTC</createdTime>
+<generatorID>0F3A1621-9973-2F0D-DDD4-ED7BEC37F13A</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<referedAttribute>1232ECFA-00CB-9362-F5F6-F9AB0FD11847</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_test" id="A791A186-9679-B9DE-780B-F5EECC718B03">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 23:55:27 UTC</createdTime>
+<generatorID>48D502B5-7272-5200-6BBD-1539A4C88DA4</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<referedAttribute>10BE0A8C-C3C2-4432-E352-E7BA3D4BFB1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06842723-B8A9-0B92-DFE8-0D49794C5707" name="Alumn_Test PK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-12 23:58:06 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<engineerTo>
+<item key="4AFAA5BB-96B3-AD0E-157C-7E0C4AED8A34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22914F5F-881C-47B7-02C9-174D4B0D2E30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CEB11A2-98A4-5B28-1669-B4762CF39B68" name="Curso">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>C8D6BAF7-4F7B-9528-43CA-677EBAA357A9</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_curso" id="1AFFC08B-7CDD-6540-5F94-59CE6E56FA00">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>75B6B300-5679-8E57-566B-785A79A57730</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B366908E-2BBF-161F-8D03-5C7674933C23">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>FE1BD740-1D91-DD10-92D8-0165B28F0E99</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Generacion" id="599DFF95-CC07-85DD-F137-02BD5D0027CB">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>65669E77-B0ED-778A-5369-F59E4EC67BF9</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBF3878C-F692-8D06-FA2E-10EE65BB7BFE" name="Curso_PK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>C7B78DBB-F84C-AA8C-865B-AFC1DFD441FF</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AFFC08B-7CDD-6540-5F94-59CE6E56FA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

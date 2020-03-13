@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38F4935C-2910-02A5-F89A-4ACE1471E476" name="Respuesta_alum">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>4717F84F-88E2-F7CF-DC79-C1CE46E5D89A</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_respuests" id="AA660ECF-A799-7CD7-BEE1-38ECF50F7F48">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>9CAC0342-66F6-8B8D-08B8-733BD4FEC77A</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FueSelec" id="DADC1EE9-8EF5-C7C7-52D0-4C4D22FC342A">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>487BC0E0-5C19-7901-D30E-3E85AE4883B1</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alumn_Test_ID_alumn_test" id="FFA33987-6484-A2F3-3551-675B7D250E37">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>36D45D34-3305-B83F-9831-C774036645E0</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="397ACCF8-8BE8-4396-049A-36F99F633915" referredColumn="ED98D78A-03F0-CAB4-D3B6-58EADA1BA4CE"/>
+</associations>
+</Column>
+<Column name="Alternativas_ID_alt" id="3BA650C2-2D6C-2165-F617-E21BD9DF857A">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>0D4A8FC7-A016-8A95-7100-916D0C1B9D8E</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="136A9590-658B-80BF-44E4-CBA2484C0C57" referredColumn="523FAEF2-22CB-80E9-F3B3-E2B4EFC4E502"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9069B0E2-3255-F7BE-894B-1579CA4D7B03" name="Respuesta_alum_PK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>4584B25F-E511-DAD9-27DB-38739E7B2020</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA660ECF-A799-7CD7-BEE1-38ECF50F7F48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59EEEBF8-79E2-8DAD-49DD-3396B269230E" name="Respuesta_alum__IDX">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<ownerDesignName>Awakelab</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FDCB9CE0-68C7-E418-42F4-387C7C96C0CB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3BA650C2-2D6C-2165-F617-E21BD9DF857A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A95A216C-A478-0B06-31BC-5DF6C861272A" name="Respuesta_alum_Alternativas_FK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>FDCB9CE0-68C7-E418-42F4-387C7C96C0CB</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BA650C2-2D6C-2165-F617-E21BD9DF857A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74EC83BD-75D6-E2D6-DE71-9C26B23EC3EE" name="Respuesta_alum_Alumn_Test_FK">
+<createdBy>marce</createdBy>
+<createdTime>2020-03-13 00:07:14 UTC</createdTime>
+<generatorID>DFC639E5-83DD-AC38-BB88-C77FE4B2486A</generatorID>
+<ownerDesignName>Awakelab</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA33987-6484-A2F3-3551-675B7D250E37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

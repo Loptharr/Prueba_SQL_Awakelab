@@ -22,4 +22,3 @@ select curso.nombre, count(*) as "alumnos x curso" from curso right outer join a
 group by curso.nombre;
 
 --Obtener  el  puntaje  no  normalizado  de  cada  evaluación.
-select 

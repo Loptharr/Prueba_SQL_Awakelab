@@ -15,7 +15,8 @@ insert into curso
 values(2,'Desarrollo Android',2020);
 insert into curso
 values(3,'Data Base Adminitration Pro',2022);
-
+insert into curso
+values(4,'Curso sin tests',2021);
 
 --Insertar data a tabla ALUMNO
 insert into alumno
@@ -42,6 +43,8 @@ insert into test
 values(103,'Prueba Easy2', 'Prueba para que pasen los alumnos2',2,'SoftSpot',DATE '2020-04-18',2);
 insert into test
 values(104,'Prueba DBA Master', 'Prueba para masters',1,'Killer',DATE '2022-06-14',3);
+insert into test
+values(105,'Prueba Sin alternativas', 'Prueba para masters',4,'Killer',DATE '2023-06-14',3);
 
 --Insertar data a tabla PREGUNTAS
 insert into preguntas
